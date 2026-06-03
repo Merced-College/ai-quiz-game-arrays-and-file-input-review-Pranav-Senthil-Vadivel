@@ -70,7 +70,7 @@ public class Main {
 
         // ENHANCEMENT: This section calculates the percentage score and gives the user feedback based on how well they did on the quiz
         // Creating a percentage value using a double because it can be in decimals
-        double percentage = (double) score / question.length * 100;
+        double percentage = (double) score / questions.length * 100;
         // Displaying the percentage along with additonal information
         System.out.println("Percentage: " + percentage +  "%");
 
