@@ -115,7 +115,7 @@ public class Main {
                 // Storing the question text into the question array
                 questions[index] = data[0];
 
-                // Storing all four answer choices for the current question
+                // Storing all 4 answer choices for the current question
                 for (int i = 0; i < NUMBER_OF_CHOICES; i++) {
                     answers[index][i] = data[i + 1];
                 }
